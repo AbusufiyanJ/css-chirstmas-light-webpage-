@@ -81,32 +81,7 @@ h2{
 }
 
 
-.gif{
-    top: 30%;
-    margin: 20%;
-    margin: 10%;
-    padding: 10%;
-    position: absolute;
-   animation: drive1 8s infinite , jump 3s both infinite;
-}
 
-
-
-@keyframes drive1{
-    from{transform: translateX(1100px)}
-
-
-    to{transform: translatex(-700px)}
-}
-
-@keyframes jump {
-    0%   {top: -10%}
-    20%   {top: -20%}
-    40%   {top: -30%}
-    60%   {top: -40%}
-    80%   {top: -30%}
-    100%   {top: -20%}
-}
 /*---------burger-icon------*/
 body{
     background: #222;
